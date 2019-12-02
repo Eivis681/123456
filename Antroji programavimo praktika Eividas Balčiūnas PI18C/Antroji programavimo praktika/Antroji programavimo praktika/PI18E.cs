@@ -8,18 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
-using System.Text.RegularExpressions;
 
 namespace Antroji_programavimo_praktika
 {
-   
-    public partial class PI18A : Form
+    public partial class PI18E : Form
     {
-        
-        public PI18A()
+        public PI18E()
         {
             InitializeComponent();
-           
         }
         Vidurkis vidurkis = new Vidurkis();
         private void PridetiStudenta_Click(object sender, EventArgs e)
@@ -45,7 +41,7 @@ namespace Antroji_programavimo_praktika
                 StudentoVardas.Clear();
                 StudentoPavarde.Clear();
             }
-           
+
         }
         private void Atnaujinti_Click(object sender, EventArgs e)
         {
@@ -53,7 +49,7 @@ namespace Antroji_programavimo_praktika
             string[] lines = File.ReadAllLines("c:\\users\\x\\desktop\\antroji programavimo praktika eividas balčiūnas pi18c\\antroji programavimo praktika\\vartotojai\\PI18A.txt");
             Studentai.Items.AddRange(lines);
         }
-     
+
         private void IstrintiStudenta_Click(object sender, EventArgs e)
         {
             List<string> dapiso = new List<string>();
@@ -88,9 +84,9 @@ namespace Antroji_programavimo_praktika
                 MessageBox.Show("Studentas sėkmingai ištrintas");
             }
         }
-            
 
-       
+
+
         private void GrižtiAtgal_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -100,12 +96,12 @@ namespace Antroji_programavimo_praktika
         private void PridetiPazimi_Click_1(object sender, EventArgs e)
         {
             int parsedValue;
-           
+
             if (string.IsNullOrWhiteSpace(StudentoPazimys.Text))
             {
                 MessageBox.Show("Iveskite pažimy");
             }
-            else if (Studentai.SelectedItem==null)
+            else if (Studentai.SelectedItem == null)
             {
                 MessageBox.Show("Pasirinkite studenta");
             }
@@ -127,12 +123,12 @@ namespace Antroji_programavimo_praktika
                 }
                 for (int i = 0; i < dapiso.Count; i++)
                 {
-                   
+
                     if (dapiso[i].Equals(pasirinkimas))
                     {
                         string GalutinisSuPazimiu;
                         GalutinisSuPazimiu = pasirinkimas + " " + StudentoPazimys.Text;
-                        dapiso[i]=(GalutinisSuPazimiu);
+                        dapiso[i] = (GalutinisSuPazimiu);
                     }
 
                 }
@@ -142,7 +138,7 @@ namespace Antroji_programavimo_praktika
                         writer.WriteLine(s);
                 }
                 MessageBox.Show("Pazimys sėkmingai pridėtas");
-                
+
             }
         }
         private void StudentoVidurkis_Click(object sender, EventArgs e)
@@ -155,7 +151,7 @@ namespace Antroji_programavimo_praktika
             {
                 string pasirinkimas = Studentai.SelectedItem.ToString();
                 string ats;
-                ats= vidurkis.findSum(pasirinkimas);
+                ats = vidurkis.findSum(pasirinkimas);
                 MessageBox.Show(ats);
             }
         }

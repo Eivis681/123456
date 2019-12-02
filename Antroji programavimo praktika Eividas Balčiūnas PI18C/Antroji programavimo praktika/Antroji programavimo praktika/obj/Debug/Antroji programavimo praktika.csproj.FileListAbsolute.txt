@@ -22,3 +22,8 @@ C:\Users\x\Desktop\Antroji programavimo praktika Eividas Balčiūnas PI18C\Antro
 C:\Users\x\Desktop\Antroji programavimo praktika Eividas Balčiūnas PI18C\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji programavimo praktika.csproj.GenerateResource.cache
 C:\Users\x\Desktop\Antroji programavimo praktika Eividas Balčiūnas PI18C\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji programavimo praktika.exe
 C:\Users\x\Desktop\Antroji programavimo praktika Eividas Balčiūnas PI18C\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji programavimo praktika.pdb
+C:\Users\x\Desktop\Antroji programavimo praktika Eividas Balčiūnas PI18C\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji_programavimo_praktika.PI18B.resources
+C:\Users\x\Desktop\Antroji programavimo praktika Eividas Balčiūnas PI18C\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji_programavimo_praktika.PI18C.resources
+C:\Users\x\Desktop\Antroji programavimo praktika Eividas Balčiūnas PI18C\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji_programavimo_praktika.PI18D.resources
+C:\Users\x\Desktop\Antroji programavimo praktika Eividas Balčiūnas PI18C\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji_programavimo_praktika.PI18E.resources
+C:\Users\x\Desktop\Antroji programavimo praktika Eividas Balčiūnas PI18C\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji_programavimo_praktika.PI18F.resources

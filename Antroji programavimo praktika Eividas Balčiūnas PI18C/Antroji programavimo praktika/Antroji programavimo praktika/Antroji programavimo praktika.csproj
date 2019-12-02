@@ -58,6 +58,36 @@
     <Compile Include="PI18A.Designer.cs">
       <DependentUpon>PI18A.cs</DependentUpon>
     </Compile>
+    <Compile Include="PI18B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PI18B.Designer.cs">
+      <DependentUpon>PI18B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PI18C.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PI18C.Designer.cs">
+      <DependentUpon>PI18C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PI18D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PI18D.Designer.cs">
+      <DependentUpon>PI18D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PI18E.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PI18E.Designer.cs">
+      <DependentUpon>PI18E.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PI18F.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PI18F.Designer.cs">
+      <DependentUpon>PI18F.cs</DependentUpon>
+    </Compile>
     <Compile Include="Registracija.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,11 +102,27 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vidurkis.cs" />
     <EmbeddedResource Include="PagrindinisLangas.resx">
       <DependentUpon>PagrindinisLangas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PI18A.resx">
       <DependentUpon>PI18A.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PI18B.resx">
+      <DependentUpon>PI18B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PI18C.resx">
+      <DependentUpon>PI18C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PI18D.resx">
+      <DependentUpon>PI18D.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PI18E.resx">
+      <DependentUpon>PI18E.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PI18F.resx">
+      <DependentUpon>PI18F.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Prisijungimas.resx">
       <DependentUpon>Prisijungimas.cs</DependentUpon>
