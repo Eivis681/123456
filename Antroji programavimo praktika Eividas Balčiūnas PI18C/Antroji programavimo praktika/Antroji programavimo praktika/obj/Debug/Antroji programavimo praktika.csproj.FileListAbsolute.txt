@@ -1,0 +1,24 @@
+C:\Users\x\Desktop\Antroji programavimo praktika\Antroji programavimo praktika\bin\Debug\Antroji programavimo praktika.exe.config
+C:\Users\x\Desktop\Antroji programavimo praktika\Antroji programavimo praktika\bin\Debug\Antroji programavimo praktika.exe
+C:\Users\x\Desktop\Antroji programavimo praktika\Antroji programavimo praktika\bin\Debug\Antroji programavimo praktika.pdb
+C:\Users\x\Desktop\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji programavimo praktika.csprojAssemblyReference.cache
+C:\Users\x\Desktop\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji_programavimo_praktika.Prisijungimas.resources
+C:\Users\x\Desktop\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji_programavimo_praktika.Properties.Resources.resources
+C:\Users\x\Desktop\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji programavimo praktika.csproj.GenerateResource.cache
+C:\Users\x\Desktop\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji programavimo praktika.exe
+C:\Users\x\Desktop\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji programavimo praktika.pdb
+C:\Users\x\Desktop\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji_programavimo_praktika.PagrindinisLangas.resources
+C:\Users\x\Desktop\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji_programavimo_praktika.Registracija.resources
+C:\Users\x\Desktop\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji_programavimo_praktika.PI18A.resources
+C:\Users\x\Desktop\Antroji programavimo praktika Eividas Balčiūnas PI18C\Antroji programavimo praktika\Antroji programavimo praktika\bin\Debug\Antroji programavimo praktika.exe.config
+C:\Users\x\Desktop\Antroji programavimo praktika Eividas Balčiūnas PI18C\Antroji programavimo praktika\Antroji programavimo praktika\bin\Debug\Antroji programavimo praktika.exe
+C:\Users\x\Desktop\Antroji programavimo praktika Eividas Balčiūnas PI18C\Antroji programavimo praktika\Antroji programavimo praktika\bin\Debug\Antroji programavimo praktika.pdb
+C:\Users\x\Desktop\Antroji programavimo praktika Eividas Balčiūnas PI18C\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji programavimo praktika.csprojAssemblyReference.cache
+C:\Users\x\Desktop\Antroji programavimo praktika Eividas Balčiūnas PI18C\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji_programavimo_praktika.PagrindinisLangas.resources
+C:\Users\x\Desktop\Antroji programavimo praktika Eividas Balčiūnas PI18C\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji_programavimo_praktika.PI18A.resources
+C:\Users\x\Desktop\Antroji programavimo praktika Eividas Balčiūnas PI18C\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji_programavimo_praktika.Prisijungimas.resources
+C:\Users\x\Desktop\Antroji programavimo praktika Eividas Balčiūnas PI18C\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji_programavimo_praktika.Properties.Resources.resources
+C:\Users\x\Desktop\Antroji programavimo praktika Eividas Balčiūnas PI18C\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji_programavimo_praktika.Registracija.resources
+C:\Users\x\Desktop\Antroji programavimo praktika Eividas Balčiūnas PI18C\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji programavimo praktika.csproj.GenerateResource.cache
+C:\Users\x\Desktop\Antroji programavimo praktika Eividas Balčiūnas PI18C\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji programavimo praktika.exe
+C:\Users\x\Desktop\Antroji programavimo praktika Eividas Balčiūnas PI18C\Antroji programavimo praktika\Antroji programavimo praktika\obj\Debug\Antroji programavimo praktika.pdb
