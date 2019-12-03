@@ -56,7 +56,7 @@ namespace Antroji_programavimo_praktika
      
         private void IstrintiStudenta_Click(object sender, EventArgs e)
         {
-            List<string> dapiso = new List<string>();
+            List<string> listas = new List<string>();
             if (Studentai.SelectedItem == null)
             {
                 MessageBox.Show("Pasirinkite studenta");
@@ -69,20 +69,20 @@ namespace Antroji_programavimo_praktika
                     string line;
                     while ((line = reader.ReadLine()) != null)
                     {
-                        dapiso.Add(line);
+                        listas.Add(line);
                     }
                 }
-                for (int i = 0; i < dapiso.Count; i++)
+                for (int i = 0; i < listas.Count; i++)
                 {
                     // if it is List<String>
-                    if (dapiso[i].Equals(pasirinkimas))
+                    if (listas[i].Equals(pasirinkimas))
                     {
-                        dapiso.RemoveAt(i);
+                        listas.RemoveAt(i);
                     }
                 }
                 using (StreamWriter writer = new StreamWriter("c:\\users\\x\\desktop\\antroji programavimo praktika eividas balčiūnas pi18c\\antroji programavimo praktika\\vartotojai\\PI18A.txt"))
                 {
-                    foreach (String s in dapiso)
+                    foreach (String s in listas)
                         writer.WriteLine(s);
                 }
                 MessageBox.Show("Studentas sėkmingai ištrintas");
@@ -154,9 +154,16 @@ namespace Antroji_programavimo_praktika
             else
             {
                 string pasirinkimas = Studentai.SelectedItem.ToString();
-                string ats;
-                ats= vidurkis.findSum(pasirinkimas);
-                MessageBox.Show(ats);
+                if (Regex.Matches(pasirinkimas, @"\d+").Count == 0)
+                {
+                    MessageBox.Show("Studentas neturi priskirtu jam pažimių");
+                }
+                else
+                {
+                    string ats;
+                    ats = vidurkis.findSum(pasirinkimas);
+                    MessageBox.Show(ats);
+                }
             }
         }
     }

@@ -18,7 +18,8 @@ namespace Antroji_programavimo_praktika
             InitializeComponent();
         }
         Vidurkis vidurkis = new Vidurkis();
-        private void PridetiStudenta_Click(object sender, EventArgs e)
+        
+        private void PridetiStudenta_Click_1(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(StudentoVardas.Text))
             {
@@ -31,7 +32,7 @@ namespace Antroji_programavimo_praktika
             else
             {
                 MessageBox.Show("Studentas pridėtas sekmingai");
-                using (StreamWriter writer = new StreamWriter("c:\\users\\x\\desktop\\antroji programavimo praktika eividas balčiūnas pi18c\\antroji programavimo praktika\\vartotojai\\PI18A.txt", true))
+                using (StreamWriter writer = new StreamWriter("c:\\users\\x\\desktop\\antroji programavimo praktika eividas balčiūnas pi18c\\antroji programavimo praktika\\vartotojai\\PI18C.txt", true))
                 {
                     writer.Write(StudentoVardas.Text);
                     writer.Write(" ");
@@ -41,12 +42,12 @@ namespace Antroji_programavimo_praktika
                 StudentoVardas.Clear();
                 StudentoPavarde.Clear();
             }
-
         }
+
         private void Atnaujinti_Click(object sender, EventArgs e)
         {
             Studentai.Items.Clear();
-            string[] lines = File.ReadAllLines("c:\\users\\x\\desktop\\antroji programavimo praktika eividas balčiūnas pi18c\\antroji programavimo praktika\\vartotojai\\PI18A.txt");
+            string[] lines = File.ReadAllLines("c:\\users\\x\\desktop\\antroji programavimo praktika eividas balčiūnas pi18c\\antroji programavimo praktika\\vartotojai\\PI18C.txt");
             Studentai.Items.AddRange(lines);
         }
 
@@ -60,7 +61,7 @@ namespace Antroji_programavimo_praktika
             else
             {
                 string pasirinkimas = Studentai.SelectedItem.ToString();
-                using (StreamReader reader = new StreamReader("C:\\Users\\x\\Desktop\\Antroji programavimo praktika Eividas Balčiūnas PI18C\\Antroji programavimo praktika\\Vartotojai\\PI18A.txt"))
+                using (StreamReader reader = new StreamReader("C:\\Users\\x\\Desktop\\Antroji programavimo praktika Eividas Balčiūnas PI18C\\Antroji programavimo praktika\\Vartotojai\\PI18C.txt"))
                 {
                     string line;
                     while ((line = reader.ReadLine()) != null)
@@ -76,7 +77,7 @@ namespace Antroji_programavimo_praktika
                         dapiso.RemoveAt(i);
                     }
                 }
-                using (StreamWriter writer = new StreamWriter("c:\\users\\x\\desktop\\antroji programavimo praktika eividas balčiūnas pi18c\\antroji programavimo praktika\\vartotojai\\PI18A.txt"))
+                using (StreamWriter writer = new StreamWriter("c:\\users\\x\\desktop\\antroji programavimo praktika eividas balčiūnas pi18c\\antroji programavimo praktika\\vartotojai\\PI18C.txt"))
                 {
                     foreach (String s in dapiso)
                         writer.WriteLine(s);
@@ -85,15 +86,14 @@ namespace Antroji_programavimo_praktika
             }
         }
 
-
-
         private void GrižtiAtgal_Click(object sender, EventArgs e)
         {
             this.Hide();
             PagrindinisLangas forma = new PagrindinisLangas();
             forma.Show();
         }
-        private void PridetiPazimi_Click_1(object sender, EventArgs e)
+
+        private void PridetiPazimi_Click(object sender, EventArgs e)
         {
             int parsedValue;
 
@@ -113,7 +113,7 @@ namespace Antroji_programavimo_praktika
             {
                 string pasirinkimas = Studentai.SelectedItem.ToString();
                 List<string> dapiso = new List<string>();
-                using (StreamReader reader = new StreamReader("C:\\Users\\x\\Desktop\\Antroji programavimo praktika Eividas Balčiūnas PI18C\\Antroji programavimo praktika\\Vartotojai\\PI18A.txt"))
+                using (StreamReader reader = new StreamReader("C:\\Users\\x\\Desktop\\Antroji programavimo praktika Eividas Balčiūnas PI18C\\Antroji programavimo praktika\\Vartotojai\\PI18C.txt"))
                 {
                     string line;
                     while ((line = reader.ReadLine()) != null)
@@ -132,7 +132,7 @@ namespace Antroji_programavimo_praktika
                     }
 
                 }
-                using (StreamWriter writer = new StreamWriter("c:\\users\\x\\desktop\\antroji programavimo praktika eividas balčiūnas pi18c\\antroji programavimo praktika\\vartotojai\\PI18A.txt"))
+                using (StreamWriter writer = new StreamWriter("c:\\users\\x\\desktop\\antroji programavimo praktika eividas balčiūnas pi18c\\antroji programavimo praktika\\vartotojai\\PI18C.txt"))
                 {
                     foreach (String s in dapiso)
                         writer.WriteLine(s);
@@ -141,6 +141,7 @@ namespace Antroji_programavimo_praktika
 
             }
         }
+
         private void StudentoVidurkis_Click(object sender, EventArgs e)
         {
             if (Studentai.SelectedItem == null)

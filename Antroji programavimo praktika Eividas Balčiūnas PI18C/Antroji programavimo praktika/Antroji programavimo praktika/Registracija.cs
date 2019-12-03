@@ -68,50 +68,7 @@ namespace Antroji_programavimo_praktika
                     }
                 }
                 
-                //using (StreamReader reader = new StreamReader("C:\\Users\\x\\Desktop\\Antroji programavimo praktika Eividas Balčiūnas PI18C\\Antroji programavimo praktika\\Vartotojai\\Naudotojai.txt"))
-                //{
-                //    string line;
-                //    while ((line = reader.ReadLine()) != null)
-                //    {
-                //        string[] values = line.Split(';');
-                //        for (int i = 0; (line = reader.ReadLine()) != null; i ++)
-                //        {
-                //            if (values[i] == RegistacijosVardas.Text)
-                //            {
-                //                MessageBox.Show("Toks vartotojo vardas jau egzistuoja");
-                //                pabaiga = true;
-                //            }
-                //        }
-                //    }
-                //            if (slaptazodis != slaptazodis1)
-                //            {
-                //                MessageBox.Show("Slaptažodis neteisingai įvestas");
-                //                pabaiga = true;
-                //            }
-                //            else if (string.IsNullOrWhiteSpace(RegistacijosVardas.Text))
-                //            {
-                //                MessageBox.Show("Teksto laukas tuščias");
-                //                pabaiga = true;
-                //            }
-                //            else if (string.IsNullOrWhiteSpace(RegistracijosSlaptažodzioPakartojimas.Text))
-                //            {
-                //                MessageBox.Show("Teksto laukas tuščias");
-                //                pabaiga = true;
-                //            }
-                //}
-                //if ((slaptazodis == slaptazodis1) && (pabaiga=false))
-                //{
-                //    MessageBox.Show("Registracija sėkminga");
-                //    Prisijungimas forma = new Prisijungimas();
-                //    forma.Show();
-                //    this.Hide();
-                //    using (StreamWriter writer = new StreamWriter("C:\\Users\\x\\Desktop\\Antroji programavimo praktika Eividas Balčiūnas PI18C\\Antroji programavimo praktika\\Vartotojai\\Naudotojai.txt", true))
-                //    {
-                //        writer.Write(RegistacijosVardas.Text);
-                //        writer.Write(";");
-                //        writer.WriteLine(RegistracijosSpaltažodis.Text);
-                //    }
-                //}
+              
             }
         }
   

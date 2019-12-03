@@ -50,12 +50,13 @@
             // 
             this.StudentoVidurkis.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StudentoVidurkis.Location = new System.Drawing.Point(220, 125);
-            this.StudentoVidurkis.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.StudentoVidurkis.Margin = new System.Windows.Forms.Padding(2);
             this.StudentoVidurkis.Name = "StudentoVidurkis";
             this.StudentoVidurkis.Size = new System.Drawing.Size(133, 42);
             this.StudentoVidurkis.TabIndex = 44;
             this.StudentoVidurkis.Text = "Studento vidurkis";
             this.StudentoVidurkis.UseVisualStyleBackColor = true;
+            this.StudentoVidurkis.Click += new System.EventHandler(this.StudentoVidurkis_Click);
             // 
             // label2
             // 
@@ -71,7 +72,7 @@
             // StudentoPazimys
             // 
             this.StudentoPazimys.Location = new System.Drawing.Point(196, 347);
-            this.StudentoPazimys.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.StudentoPazimys.Margin = new System.Windows.Forms.Padding(2);
             this.StudentoPazimys.Name = "StudentoPazimys";
             this.StudentoPazimys.Size = new System.Drawing.Size(156, 20);
             this.StudentoPazimys.TabIndex = 42;
@@ -80,12 +81,13 @@
             // 
             this.Atnaujinti.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Atnaujinti.Location = new System.Drawing.Point(219, 171);
-            this.Atnaujinti.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Atnaujinti.Margin = new System.Windows.Forms.Padding(2);
             this.Atnaujinti.Name = "Atnaujinti";
             this.Atnaujinti.Size = new System.Drawing.Size(133, 42);
             this.Atnaujinti.TabIndex = 41;
             this.Atnaujinti.Text = "Atnaujinti";
             this.Atnaujinti.UseVisualStyleBackColor = true;
+            this.Atnaujinti.Click += new System.EventHandler(this.Atnaujinti_Click);
             // 
             // label6
             // 
@@ -112,7 +114,7 @@
             // StudentoPavarde
             // 
             this.StudentoPavarde.Location = new System.Drawing.Point(17, 385);
-            this.StudentoPavarde.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.StudentoPavarde.Margin = new System.Windows.Forms.Padding(2);
             this.StudentoPavarde.Name = "StudentoPavarde";
             this.StudentoPavarde.Size = new System.Drawing.Size(156, 20);
             this.StudentoPavarde.TabIndex = 38;
@@ -120,7 +122,7 @@
             // StudentoVardas
             // 
             this.StudentoVardas.Location = new System.Drawing.Point(17, 347);
-            this.StudentoVardas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.StudentoVardas.Margin = new System.Windows.Forms.Padding(2);
             this.StudentoVardas.Name = "StudentoVardas";
             this.StudentoVardas.Size = new System.Drawing.Size(156, 20);
             this.StudentoVardas.TabIndex = 37;
@@ -129,45 +131,49 @@
             // 
             this.GrižtiAtgal.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GrižtiAtgal.Location = new System.Drawing.Point(220, 216);
-            this.GrižtiAtgal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GrižtiAtgal.Margin = new System.Windows.Forms.Padding(2);
             this.GrižtiAtgal.Name = "GrižtiAtgal";
             this.GrižtiAtgal.Size = new System.Drawing.Size(133, 42);
             this.GrižtiAtgal.TabIndex = 36;
             this.GrižtiAtgal.Text = "Grižti atgal";
             this.GrižtiAtgal.UseVisualStyleBackColor = true;
+            this.GrižtiAtgal.Click += new System.EventHandler(this.GrižtiAtgal_Click);
             // 
             // PridetiPazimi
             // 
             this.PridetiPazimi.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PridetiPazimi.Location = new System.Drawing.Point(206, 407);
-            this.PridetiPazimi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PridetiPazimi.Margin = new System.Windows.Forms.Padding(2);
             this.PridetiPazimi.Name = "PridetiPazimi";
             this.PridetiPazimi.Size = new System.Drawing.Size(133, 42);
             this.PridetiPazimi.TabIndex = 35;
             this.PridetiPazimi.Text = "Pirdėti pažimy";
             this.PridetiPazimi.UseVisualStyleBackColor = true;
+            this.PridetiPazimi.Click += new System.EventHandler(this.PridetiPazimi_Click);
             // 
             // IstrintiStudenta
             // 
             this.IstrintiStudenta.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IstrintiStudenta.Location = new System.Drawing.Point(220, 80);
-            this.IstrintiStudenta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.IstrintiStudenta.Margin = new System.Windows.Forms.Padding(2);
             this.IstrintiStudenta.Name = "IstrintiStudenta";
             this.IstrintiStudenta.Size = new System.Drawing.Size(133, 42);
             this.IstrintiStudenta.TabIndex = 34;
             this.IstrintiStudenta.Text = "Ištrinti studentą";
             this.IstrintiStudenta.UseVisualStyleBackColor = true;
+            this.IstrintiStudenta.Click += new System.EventHandler(this.IstrintiStudenta_Click);
             // 
             // PridetiStudenta
             // 
             this.PridetiStudenta.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PridetiStudenta.Location = new System.Drawing.Point(17, 407);
-            this.PridetiStudenta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PridetiStudenta.Margin = new System.Windows.Forms.Padding(2);
             this.PridetiStudenta.Name = "PridetiStudenta";
             this.PridetiStudenta.Size = new System.Drawing.Size(133, 42);
             this.PridetiStudenta.TabIndex = 33;
             this.PridetiStudenta.Text = "Pridėti studentą";
             this.PridetiStudenta.UseVisualStyleBackColor = true;
+            this.PridetiStudenta.Click += new System.EventHandler(this.PridetiStudenta_Click);
             // 
             // label3
             // 
@@ -184,7 +190,7 @@
             // 
             this.Studentai.FormattingEnabled = true;
             this.Studentai.Location = new System.Drawing.Point(17, 80);
-            this.Studentai.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Studentai.Margin = new System.Windows.Forms.Padding(2);
             this.Studentai.Name = "Studentai";
             this.Studentai.Size = new System.Drawing.Size(198, 251);
             this.Studentai.TabIndex = 31;
@@ -232,7 +238,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.Studentai);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "PI18B";
             this.Text = "PI18B";
             this.ResumeLayout(false);

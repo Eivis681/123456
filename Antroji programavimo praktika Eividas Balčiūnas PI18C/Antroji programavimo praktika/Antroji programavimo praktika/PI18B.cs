@@ -41,8 +41,8 @@ namespace Antroji_programavimo_praktika
                 StudentoVardas.Clear();
                 StudentoPavarde.Clear();
             }
-
         }
+
         private void Atnaujinti_Click(object sender, EventArgs e)
         {
             Studentai.Items.Clear();
@@ -85,15 +85,14 @@ namespace Antroji_programavimo_praktika
             }
         }
 
-
-
         private void GrižtiAtgal_Click(object sender, EventArgs e)
         {
             this.Hide();
             PagrindinisLangas forma = new PagrindinisLangas();
             forma.Show();
         }
-        private void PridetiPazimi_Click_1(object sender, EventArgs e)
+
+        private void PridetiPazimi_Click(object sender, EventArgs e)
         {
             int parsedValue;
 
@@ -141,6 +140,7 @@ namespace Antroji_programavimo_praktika
 
             }
         }
+
         private void StudentoVidurkis_Click(object sender, EventArgs e)
         {
             if (Studentai.SelectedItem == null)
